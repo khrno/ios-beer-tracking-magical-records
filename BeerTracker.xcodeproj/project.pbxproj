@@ -14,13 +14,21 @@
 		A150E35117F11FA400BF5BC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A150E35017F11FA400BF5BC1 /* main.m */; };
 		A150E35517F11FA400BF5BC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A150E35417F11FA400BF5BC1 /* AppDelegate.m */; };
 		A150E35817F11FA400BF5BC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A150E35617F11FA400BF5BC1 /* Main.storyboard */; };
-		A150E35B17F11FA400BF5BC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A150E35A17F11FA400BF5BC1 /* ViewController.m */; };
 		A150E35D17F11FA400BF5BC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A150E35C17F11FA400BF5BC1 /* Images.xcassets */; };
 		A150E36417F11FA400BF5BC1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A150E36317F11FA400BF5BC1 /* XCTest.framework */; };
 		A150E36517F11FA400BF5BC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A150E34417F11FA400BF5BC1 /* Foundation.framework */; };
 		A150E36617F11FA400BF5BC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A150E34817F11FA400BF5BC1 /* UIKit.framework */; };
 		A150E36E17F11FA400BF5BC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A150E36C17F11FA400BF5BC1 /* InfoPlist.strings */; };
 		A150E37017F11FA400BF5BC1 /* BeerTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A150E36F17F11FA400BF5BC1 /* BeerTrackerTests.m */; };
+		A150E37D17F1207D00BF5BC1 /* blond.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A150E37917F1207D00BF5BC1 /* blond.jpg */; };
+		A150E37E17F1207D00BF5BC1 /* pale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A150E37A17F1207D00BF5BC1 /* pale.jpg */; };
+		A150E37F17F1207D00BF5BC1 /* stout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A150E37B17F1207D00BF5BC1 /* stout.jpg */; };
+		A150E38017F1207D00BF5BC1 /* wheat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A150E37C17F1207D00BF5BC1 /* wheat.jpg */; };
+		A150E38417F123DE00BF5BC1 /* BeerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A150E38317F123DE00BF5BC1 /* BeerViewController.m */; };
+		A150E38817F1245900BF5BC1 /* AMRatingControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A150E38717F1245900BF5BC1 /* AMRatingControl.m */; };
+		A150E38C17F124E700BF5BC1 /* ImageSaver.m in Sources */ = {isa = PBXBuildFile; fileRef = A150E38B17F124E700BF5BC1 /* ImageSaver.m */; };
+		A150E38F17F1263100BF5BC1 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A150E38E17F1263100BF5BC1 /* MasterViewController.m */; };
+		A150E39217F128FE00BF5BC1 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A150E39117F128FE00BF5BC1 /* PhotoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +53,27 @@
 		A150E35317F11FA400BF5BC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A150E35417F11FA400BF5BC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A150E35717F11FA400BF5BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A150E35917F11FA400BF5BC1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A150E35A17F11FA400BF5BC1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A150E35C17F11FA400BF5BC1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A150E36217F11FA400BF5BC1 /* BeerTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeerTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A150E36317F11FA400BF5BC1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A150E36B17F11FA400BF5BC1 /* BeerTrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeerTrackerTests-Info.plist"; sourceTree = "<group>"; };
 		A150E36D17F11FA400BF5BC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A150E36F17F11FA400BF5BC1 /* BeerTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeerTrackerTests.m; sourceTree = "<group>"; };
+		A150E37917F1207D00BF5BC1 /* blond.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blond.jpg; sourceTree = "<group>"; };
+		A150E37A17F1207D00BF5BC1 /* pale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pale.jpg; sourceTree = "<group>"; };
+		A150E37B17F1207D00BF5BC1 /* stout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stout.jpg; sourceTree = "<group>"; };
+		A150E37C17F1207D00BF5BC1 /* wheat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wheat.jpg; sourceTree = "<group>"; };
+		A150E38217F123DE00BF5BC1 /* BeerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerViewController.h; sourceTree = "<group>"; };
+		A150E38317F123DE00BF5BC1 /* BeerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerViewController.m; sourceTree = "<group>"; };
+		A150E38617F1245900BF5BC1 /* AMRatingControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMRatingControl.h; sourceTree = "<group>"; };
+		A150E38717F1245900BF5BC1 /* AMRatingControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMRatingControl.m; sourceTree = "<group>"; };
+		A150E38A17F124E700BF5BC1 /* ImageSaver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSaver.h; sourceTree = "<group>"; };
+		A150E38B17F124E700BF5BC1 /* ImageSaver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageSaver.m; sourceTree = "<group>"; };
+		A150E38D17F1263100BF5BC1 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		A150E38E17F1263100BF5BC1 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		A150E39017F128FE00BF5BC1 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		A150E39117F128FE00BF5BC1 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		A15678071849071500DB62C8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +122,7 @@
 		A150E34317F11FA400BF5BC1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A15678071849071500DB62C8 /* CoreData.framework */,
 				A150E34417F11FA400BF5BC1 /* Foundation.framework */,
 				A150E34617F11FA400BF5BC1 /* CoreGraphics.framework */,
 				A150E34817F11FA400BF5BC1 /* UIKit.framework */,
@@ -115,9 +137,17 @@
 				A150E35317F11FA400BF5BC1 /* AppDelegate.h */,
 				A150E35417F11FA400BF5BC1 /* AppDelegate.m */,
 				A150E35617F11FA400BF5BC1 /* Main.storyboard */,
-				A150E35917F11FA400BF5BC1 /* ViewController.h */,
-				A150E35A17F11FA400BF5BC1 /* ViewController.m */,
+				A150E38D17F1263100BF5BC1 /* MasterViewController.h */,
+				A150E38E17F1263100BF5BC1 /* MasterViewController.m */,
+				A150E38217F123DE00BF5BC1 /* BeerViewController.h */,
+				A150E38317F123DE00BF5BC1 /* BeerViewController.m */,
+				A150E39017F128FE00BF5BC1 /* PhotoViewController.h */,
+				A150E39117F128FE00BF5BC1 /* PhotoViewController.m */,
+				A150E38A17F124E700BF5BC1 /* ImageSaver.h */,
+				A150E38B17F124E700BF5BC1 /* ImageSaver.m */,
 				A150E35C17F11FA400BF5BC1 /* Images.xcassets */,
+				A150E38117F1208300BF5BC1 /* Preloaded Images */,
+				A150E38517F1245900BF5BC1 /* AMRating */,
 				A150E34B17F11FA400BF5BC1 /* Supporting Files */,
 			);
 			path = BeerTracker;
@@ -150,6 +180,26 @@
 				A150E36C17F11FA400BF5BC1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A150E38117F1208300BF5BC1 /* Preloaded Images */ = {
+			isa = PBXGroup;
+			children = (
+				A150E37917F1207D00BF5BC1 /* blond.jpg */,
+				A150E37A17F1207D00BF5BC1 /* pale.jpg */,
+				A150E37B17F1207D00BF5BC1 /* stout.jpg */,
+				A150E37C17F1207D00BF5BC1 /* wheat.jpg */,
+			);
+			name = "Preloaded Images";
+			sourceTree = "<group>";
+		};
+		A150E38517F1245900BF5BC1 /* AMRating */ = {
+			isa = PBXGroup;
+			children = (
+				A150E38617F1245900BF5BC1 /* AMRatingControl.h */,
+				A150E38717F1245900BF5BC1 /* AMRatingControl.m */,
+			);
+			path = AMRating;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +279,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A150E35D17F11FA400BF5BC1 /* Images.xcassets in Resources */,
+				A150E37F17F1207D00BF5BC1 /* stout.jpg in Resources */,
+				A150E37E17F1207D00BF5BC1 /* pale.jpg in Resources */,
 				A150E34F17F11FA400BF5BC1 /* InfoPlist.strings in Resources */,
 				A150E35817F11FA400BF5BC1 /* Main.storyboard in Resources */,
+				A150E38017F1207D00BF5BC1 /* wheat.jpg in Resources */,
+				A150E37D17F1207D00BF5BC1 /* blond.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +303,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A150E35B17F11FA400BF5BC1 /* ViewController.m in Sources */,
+				A150E38817F1245900BF5BC1 /* AMRatingControl.m in Sources */,
 				A150E35517F11FA400BF5BC1 /* AppDelegate.m in Sources */,
+				A150E38417F123DE00BF5BC1 /* BeerViewController.m in Sources */,
+				A150E38C17F124E700BF5BC1 /* ImageSaver.m in Sources */,
+				A150E38F17F1263100BF5BC1 /* MasterViewController.m in Sources */,
 				A150E35117F11FA400BF5BC1 /* main.m in Sources */,
+				A150E39217F128FE00BF5BC1 /* PhotoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +518,7 @@
 				A150E37517F11FA400BF5BC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A150E37617F11FA400BF5BC1 /* Build configuration list for PBXNativeTarget "BeerTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +527,7 @@
 				A150E37817F11FA400BF5BC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

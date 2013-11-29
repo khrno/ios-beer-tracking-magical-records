@@ -1,10 +1,6 @@
-//
 //  AppDelegate.m
 //  BeerTracker
-//
-//  Created by Andy on 9/23/13.
-//  Copyright (c) 2013 Andy Pereira. All rights reserved.
-//
+//  Copyright (c) 2013 Ray Wenderlich. All rights reserved.
 
 #import "AppDelegate.h"
 
@@ -12,7 +8,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+	self.window.tintColor = [UIColor whiteColor];
+	[[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:0.22f green:0.17f blue:0.13f alpha:1.00f]];
+	[[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName: [UIColor whiteColor]}];
     return YES;
 }
 							

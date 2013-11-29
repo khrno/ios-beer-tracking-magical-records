@@ -1,10 +1,6 @@
-//
 //  AppDelegate.h
 //  BeerTracker
-//
-//  Created by Andy on 9/23/13.
-//  Copyright (c) 2013 Andy Pereira. All rights reserved.
-//
+//  Copyright (c) 2013 Ray Wenderlich. All rights reserved.
 
 #import <UIKit/UIKit.h>
 
