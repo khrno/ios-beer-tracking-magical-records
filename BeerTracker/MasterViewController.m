@@ -5,6 +5,7 @@
 #import "MasterViewController.h"
 #import "AMRating/AMRatingControl.h"
 #import "BeerViewController.h"
+#import "ImageSaver.h"
 
 @interface MasterViewController ()<UISearchBarDelegate>
 @property (nonatomic) NSMutableArray *beers;
@@ -41,8 +42,8 @@ NSString * const WB_SORT_KEY     = @"WB_SORT_KEY";
     if ([[segue identifier] isEqualToString:@"editBeer"]) {
     
 	} else if ([segue.identifier isEqualToString:@"addBeer"]) {
-		upcoming.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Cancel" style:UIBarButtonSystemItemCancel target:upcoming action:@selector(cancelAdd)];
-		upcoming.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Done" style:UIBarButtonSystemItemAdd target:upcoming action:@selector(addNewBeer)];
+		upcoming.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Cancel" style:UIBarButtonItemStyleDone target:upcoming action:@selector(cancelAdd)];
+		upcoming.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Done" style:UIBarButtonItemStylePlain target:upcoming action:@selector(addNewBeer)];
 	}
 }
 
@@ -94,7 +95,14 @@ NSString * const WB_SORT_KEY     = @"WB_SORT_KEY";
 }
 
 - (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar {
-
+	[self.searchBar resignFirstResponder];
+	// Clear search bar text
+	self.searchBar.text = @"";
+	// Hide the cancel button
+	self.searchBar.showsCancelButton = NO;
+	// Do a default fetch of the beers
+	[self fetchAllBeers];
+	[self.tableView reloadData];
 }
 
 - (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar {
